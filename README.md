@@ -46,7 +46,7 @@
   </div>
 
   <script>
-    const winners = ["tanja", "dinkske", "arnaud", "rosse", "papa", "audrey"];
+    const winners = ["tanja", "dingske", "arnaud", "rosse", "papa", "audrey"];
 
     function start() {
       const name = document.getElementById("nameInput").value.trim().toLowerCase();
