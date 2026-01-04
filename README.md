@@ -116,7 +116,7 @@
     function stepThibaut4() {
       document.getElementById("app").innerHTML = `
         <h1>Maar heb je echt gewonnen?</h1>
-        <img src="twijfel.jpg" alt="twijfel" />
+        ![image alt](https://github.com/jonasdelaat-ship-it/winnaar-check/blob/fdd751dcbbcb1ec8060b7351e274d1585b2c7ba9/20260104_175209.jpg)
       `;
     }
   </script>
