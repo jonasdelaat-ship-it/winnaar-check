@@ -73,7 +73,7 @@
     function stepWinner2() {
       document.getElementById("app").innerHTML = `
         <h1>In het leven</h1>
-        ![image alt](https://github.com/jonasdelaat-ship-it/winnaar-check/blob/925870e74ee05079cf44150fc704ee31e429b329/20260104_174621.jpg)
+        ![image alt](https://github.com/jonasdelaat-ship-it/winnaar-check/raw/925870e74ee05079cf44150fc704ee31e429b329/20260104_174621.jpg)
         <p>Want je hebt mij in je leven</p>
         <button onclick="stepWinner3()">Next</button>
       `;
