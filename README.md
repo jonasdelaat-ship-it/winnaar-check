@@ -74,7 +74,7 @@
       document.getElementById("app").innerHTML = `
         <h1>In het leven</h1>
         <img src="https://github.com/jonasdelaat-ship-it/winnaar-check/raw/925870e74ee05079cf44150fc704ee31e429b329/20260104_174621.jpg" alt="leven" />
-        <p>Want je hebt mij in je leven</p>
+        <p>Want je hebt mij.</p>
         <button onclick="stepWinner3()">Next</button>
       `;
     }
@@ -99,14 +99,13 @@
       document.getElementById("app").innerHTML = `
         <h1>In het leven</h1>
         <img src="https://github.com/jonasdelaat-ship-it/winnaar-check/raw/925870e74ee05079cf44150fc704ee31e429b329/20260104_174621.jpg" alt="leven" />
-        <p>Want je hebt mij in je leven</p>
+        <p>Want je hebt mij.</p>
         <button onclick="stepThibaut3()">Next</button>
       `;
     }
 
     function stepThibaut3() {
       document.getElementById("app").innerHTML = `
-        <h1>Maar helaas heb je dit jaar niet gewonnen</h1>
         <p>En ook met de sokken wedstrijd</p>
         <button onclick="stepThibaut4()">Next</button>
       `;
