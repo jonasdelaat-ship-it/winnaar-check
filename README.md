@@ -73,9 +73,7 @@
     function stepWinner2() {
       document.getElementById("app").innerHTML = `
         <h1>In het leven</h1>
-        
-        ![image alt](https://github.com/jonasdelaat-ship-it/winnaar-check/raw/925870e74ee05079cf44150fc704ee31e429b329/20260104_174621.jpg)
-        
+        <img src="https://github.com/jonasdelaat-ship-it/winnaar-check/raw/925870e74ee05079cf44150fc704ee31e429b329/20260104_174621.jpg" alt="leven" />
         <p>Want je hebt mij in je leven</p>
         <button onclick="stepWinner3()">Next</button>
       `;
@@ -100,7 +98,7 @@
     function stepThibaut2() {
       document.getElementById("app").innerHTML = `
         <h1>In het leven</h1>
-        <img src="leven.jpg" alt="leven" />
+        <img src="https://github.com/jonasdelaat-ship-it/winnaar-check/raw/925870e74ee05079cf44150fc704ee31e429b329/20260104_174621.jpg" alt="leven" />
         <p>Want je hebt mij in je leven</p>
         <button onclick="stepThibaut3()">Next</button>
       `;
@@ -108,6 +106,7 @@
 
     function stepThibaut3() {
       document.getElementById("app").innerHTML = `
+        <h1>Maar helaas heb je dit jaar niet gewonnen</h1>
         <p>En ook met de sokken wedstrijd</p>
         <button onclick="stepThibaut4()">Next</button>
       `;
@@ -116,7 +115,7 @@
     function stepThibaut4() {
       document.getElementById("app").innerHTML = `
         <h1>Maar heb je echt gewonnen?</h1>
-        ![image alt](https://github.com/jonasdelaat-ship-it/winnaar-check/blob/fdd751dcbbcb1ec8060b7351e274d1585b2c7ba9/20260104_175209.jpg)
+        <img src="https://raw.githubusercontent.com/jonasdelaat-ship-it/winnaar-check/fdd751dcbbcb1ec8060b7351e274d1585b2c7ba9/20260104_175209.jpg" alt="twijfel" />
       `;
     }
   </script>
